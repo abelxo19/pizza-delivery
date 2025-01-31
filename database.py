@@ -5,4 +5,4 @@ engine=create_engine('postgresql://postgres:0000@localhost:5432/pizza_delivery' 
 
 Base=declarative_base()
 
-session=sessionmaker()
+Session=sessionmaker()
